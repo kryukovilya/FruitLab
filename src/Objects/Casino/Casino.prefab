@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4937847833200727840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5750273043350736282}
+  - component: {fileID: 8674717145900499519}
+  - component: {fileID: 6883257256418424565}
+  - component: {fileID: 8897300026474179308}
+  - component: {fileID: 7043726775645859292}
+  - component: {fileID: 8179217527780990167}
+  - component: {fileID: 3141074509037603715}
+  - component: {fileID: 8245890975218786262}
+  m_Layer: 0
+  m_Name: Casino
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5750273043350736282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937847833200727840}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
+  m_LocalPosition: {x: 1.54, y: 0.215, z: -2.576}
+  m_LocalScale: {x: 34.274654, y: 34.274654, z: 34.274654}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
+--- !u!33 &8674717145900499519
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937847833200727840}
+  m_Mesh: {fileID: 4493585093827132993, guid: 7aa1e61c7d1fb9547af902bf49bd6b6a, type: 3}
+--- !u!23 &6883257256418424565
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937847833200727840}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f585a5b7176700b48ab864f2126a78b1, type: 2}
+  - {fileID: 2100000, guid: b2d4f913736834f43a2db8c74e347206, type: 2}
+  - {fileID: 2100000, guid: 404ba09aef0e69241a75fde0a5f66295, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8897300026474179308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937847833200727840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.02540083, z: 0.05597976}
+  m_Center: {x: 0, y: -0.0036306663, z: 0.02798988}
+--- !u!114 &7043726775645859292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937847833200727840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b220ea0c852a049499171b51c58596c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConfigBlockly: '{"Name":{"en":"Casino"},"Description":{"en":"Casino"},"Guid":"46247b1b-7733-43c0-a3e4-c2d636714a24","RootGuid":"7012c06f-3609-4928-9d50-99021de3fae9","Locked":false,"Embedded":false,"MobileReady":true,"LinuxReady":true,"SourcesIncluded":false,"DisableSceneLogic":false,"Config":{"type":"Casino_7012c06f360949289d5099021de3fae9.CasinoWrapper","blocks":[{"name":"StartSpin","type":"action","isCoroutine":false,"isObsolete":false,"items":[{"method":"StartSpin"}]},{"name":"On","type":"action","isCoroutine":false,"isObsolete":false,"items":[{"method":"On"}]},{"name":"Off","type":"action","isCoroutine":false,"isObsolete":false,"items":[{"method":"Off"}]},{"name":"Win","type":"action","isCoroutine":false,"isObsolete":false,"items":[{"method":"win"}]}]},"Author":{"Name":"Anonymous","Email":"","Url":""},"License":{"Code":"cc-by","Version":"4.0"},"BuiltAt":"2026-04-01T15:36:09Z","SdkVersion":"17.13.290","UnityVersion":"2021.3.0f1","Changelog":{"en":"","ru":""}}'
+  ConfigAssetBundle: '{"AssetName":"Casino","Assembly":["Casino_7012c06f360949289d5099021de3fae9_3a049545.dll"]}'
+  Icon: {fileID: 0}
+  ThumbnailImage: {fileID: 0}
+  ViewImage: {fileID: 0}
+  SpritesheetImage: {fileID: 0}
+  Name: Casino
+  DisplayNames:
+    LocalizationStrings:
+    - key: 10
+      value: Casino
+    IsValidDictionary: 1
+  Description:
+    LocalizationStrings:
+    - key: 10
+      value: Casino
+    IsValidDictionary: 1
+  AssetBundleParts: []
+  Prefab: Assets/Objects/Casino/Casino.prefab
+  PrefabGuid: 7eeb67a656e04354295a7712a8bf2211
+  Guid: 40651fd9-3f1b-4abb-a3ce-e610d8692fb8
+  RootGuid: 7012c06f-3609-4928-9d50-99021de3fae9
+  Locked: 0
+  Embedded: 0
+  SourcesIncluded: 0
+  MobileReady: 1
+  DisableSceneLogic: 0
+  AddBehavioursAtRuntime: 0
+  AuthorName: Anonymous
+  AuthorEmail: 
+  AuthorUrl: 
+  LicenseCode: cc-by
+  LicenseVersion: 4.0
+  BuiltAt: 4/1/2026 6:53:41 PM +03:00
+  AssemblySuffix: _3a049545
+  CurrentVersionWasBuilt: 0
+  CurrentVersionWasBuiltAsMobileReady: 0
+  Changelog: 
+  Components:
+    ComponentReferences:
+    - Name: Casino_0
+      Component: {fileID: 3141074509037603715}
+  Signatures:
+    PropertySignatures: []
+    MethodSignatures:
+    - Name: Casino_0.StartSpin
+      ReturnType: void
+      Parameters: []
+    - Name: Casino_0.On
+      ReturnType: void
+      Parameters: []
+    - Name: Casino_0.Off
+      ReturnType: void
+      Parameters: []
+    - Name: Casino_0.win
+      ReturnType: void
+      Parameters: []
+    EventSignatures: []
+    GroupSignatures: []
+    UseValueListSignatures: []
+--- !u!54 &8179217527780990167
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937847833200727840}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3141074509037603715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937847833200727840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea28c7518e409e74792b9f834e709b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1
+  isOn: 1
+--- !u!114 &8245890975218786262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4937847833200727840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0fef5926f5abc4abda01eb169b6e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 32628

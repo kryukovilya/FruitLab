@@ -1,0 +1,13 @@
+{
+  "name": "Sphere_668a7b45f7a3449795d3d5bf9fe5bd6b",
+  "references": [
+    "VarwinCore",
+    "Unity.Netcode.Runtime"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "overrideReferences": false,
+  "allowUnsafeCode": false,
+  "autoReferenced": false
+}

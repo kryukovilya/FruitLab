@@ -1,0 +1,13 @@
+{
+  "name": "ShotdownSphere_b2cdd9903de14a50850aeea1ff42a37b",
+  "references": [
+    "VarwinCore",
+    "Unity.Netcode.Runtime"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "overrideReferences": false,
+  "allowUnsafeCode": false,
+  "autoReferenced": false
+}

@@ -1,0 +1,13 @@
+{
+  "name": "SpaceEnv_1245b3fa6c1d459a915fbbcf7394c1d7",
+  "references": [
+    "VarwinCore",
+    "Unity.Netcode.Runtime"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "overrideReferences": false,
+  "allowUnsafeCode": false,
+  "autoReferenced": false
+}

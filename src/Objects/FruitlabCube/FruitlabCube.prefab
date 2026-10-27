@@ -1,0 +1,372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8715232893443422299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8338813320468292321}
+  - component: {fileID: 4906303586218143044}
+  - component: {fileID: 7201896081159952782}
+  - component: {fileID: 3112329000316741834}
+  - component: {fileID: 4981877991532340252}
+  - component: {fileID: 7938432279729558595}
+  - component: {fileID: 1146466783}
+  - component: {fileID: 8021643149930360965}
+  - component: {fileID: 1706778540680946425}
+  - component: {fileID: 6400344657383168963}
+  - component: {fileID: 1607913106072188558}
+  m_Layer: 0
+  m_Name: FruitlabCube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8338813320468292321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 3.36, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &4906303586218143044
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_Mesh: {fileID: -3329902420748629119, guid: 26b19fff9b356144497039b854a6a89b, type: 3}
+--- !u!23 &7201896081159952782
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 38ee454ba16111f48a27284781d718c6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3112329000316741834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b220ea0c852a049499171b51c58596c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConfigBlockly: '{"Name":{"en":"Fruitlab Cube"},"Description":{"en":"Fruitlab Cube"},"Guid":"781f65d9-8fe8-48df-863a-89c7d191eab8","RootGuid":"45ba5729-19d0-4157-844b-ad6fe78af7c8","Locked":false,"Embedded":false,"MobileReady":true,"LinuxReady":true,"SourcesIncluded":false,"DisableSceneLogic":false,"Config":{"type":"FruitlabCube_45ba572919d04157844bad6fe78af7c8.FruitlabCubeWrapper","blocks":[{"name":"Hide","type":"action","isCoroutine":false,"isObsolete":false,"items":[{"method":"hide"}]},{"name":"Destroy","type":"eventWithArguments","isCoroutine":false,"isObsolete":false,"items":[{"method":"Destroy","i18n":{"en":"onDestroy"}}],"params":[{"name":"sender","valueType":"Varwin.Wrapper","i18n":{"en":"Fruitlab
+    Cube","cn":"Fruitlab Cube","ko":"Fruitlab Cube","ru":"Fruitlab Cube","kk":"Fruitlab
+    Cube"}}]},{"name":"OnDrop","type":"eventWithArguments","isCoroutine":false,"isObsolete":false,"items":[{"method":"OnDrop","i18n":{"en":"onDrop"}}],"params":[{"name":"sender","valueType":"Varwin.Wrapper","i18n":{"en":"Fruitlab
+    Cube","cn":"Fruitlab Cube","ko":"Fruitlab Cube","ru":"Fruitlab Cube","kk":"Fruitlab
+    Cube"}}]}]},"Author":{"Name":"Anonymous","Email":"","Url":""},"License":{"Code":"cc-by","Version":"4.0"},"BuiltAt":"2026-04-02T04:33:28Z","SdkVersion":"17.13.290","UnityVersion":"2021.3.0f1","Changelog":{"en":"","ru":""}}'
+  ConfigAssetBundle: '{"AssetName":"FruitlabCube","Assembly":["FruitlabCube_45ba572919d04157844bad6fe78af7c8_3cc47842.dll"]}'
+  Icon: {fileID: 0}
+  ThumbnailImage: {fileID: 0}
+  ViewImage: {fileID: 0}
+  SpritesheetImage: {fileID: 0}
+  Name: FruitlabCube
+  DisplayNames:
+    LocalizationStrings:
+    - key: 10
+      value: Fruitlab Cube
+    IsValidDictionary: 1
+  Description:
+    LocalizationStrings:
+    - key: 10
+      value: Fruitlab Cube
+    IsValidDictionary: 1
+  AssetBundleParts: []
+  Prefab: Assets/Objects/FruitlabCube/FruitlabCube.prefab
+  PrefabGuid: 14c31a072cd71fe41982f4175da91f79
+  Guid: 7afc945b-7605-4dbd-92ec-aa09fb05dfd0
+  RootGuid: 45ba5729-19d0-4157-844b-ad6fe78af7c8
+  Locked: 0
+  Embedded: 0
+  SourcesIncluded: 0
+  MobileReady: 1
+  DisableSceneLogic: 0
+  AddBehavioursAtRuntime: 0
+  AuthorName: Anonymous
+  AuthorEmail: 
+  AuthorUrl: 
+  LicenseCode: cc-by
+  LicenseVersion: 4.0
+  BuiltAt: 4/2/2026 9:28:36 AM +03:00
+  AssemblySuffix: _3cc47842
+  CurrentVersionWasBuilt: 0
+  CurrentVersionWasBuiltAsMobileReady: 0
+  Changelog: 
+  Components:
+    ComponentReferences:
+    - Name: FruitlabCube_0
+      Component: {fileID: 7938432279729558595}
+    - Name: InteractableObjectBehaviour_0
+      Component: {fileID: 1706778540680946425}
+    - Name: InteractionBehaviour_0
+      Component: {fileID: 6400344657383168963}
+  Signatures:
+    PropertySignatures:
+    - Name: InteractionBehaviour_0.TeleportationSetter
+      Type: object
+    - Name: InteractionBehaviour_0.GrabbingSetter
+      Type: object
+    - Name: InteractionBehaviour_0.UsingSetter
+      Type: object
+    - Name: InteractionBehaviour_0.TouchingSetter
+      Type: object
+    MethodSignatures:
+    - Name: FruitlabCube_0.hide
+      ReturnType: void
+      Parameters: []
+    - Name: InteractionBehaviour_0.IsGrabbed
+      ReturnType: bool
+      Parameters: []
+    - Name: InteractionBehaviour_0.IsUsing
+      ReturnType: bool
+      Parameters: []
+    - Name: InteractionBehaviour_0.IsTouching
+      ReturnType: bool
+      Parameters: []
+    EventSignatures:
+    - Name: InteractionBehaviour_0.OnObjectGrabbed
+      ReturnType: void
+      Parameters:
+      - ControllerHand
+    - Name: InteractionBehaviour_0.OnObjectUnGrabbed
+      ReturnType: void
+      Parameters:
+      - ControllerHand
+    - Name: InteractionBehaviour_0.OnObjectUsed
+      ReturnType: void
+      Parameters:
+      - ControllerHand
+    - Name: InteractionBehaviour_0.OnObjectNotUsed
+      ReturnType: void
+      Parameters:
+      - ControllerHand
+    - Name: InteractionBehaviour_0.OnObjectTouched
+      ReturnType: void
+      Parameters: []
+    - Name: InteractionBehaviour_0.OnObjectNotTouched
+      ReturnType: void
+      Parameters: []
+    GroupSignatures:
+    - Name: InteractionBehaviour_0.Grab
+      Members:
+      - InteractionBehaviour_0.OnObjectGrabbed
+      - InteractionBehaviour_0.OnObjectUnGrabbed
+    - Name: InteractionBehaviour_0.Use
+      Members:
+      - InteractionBehaviour_0.OnObjectUsed
+      - InteractionBehaviour_0.OnObjectNotUsed
+    - Name: InteractionBehaviour_0.Touch
+      Members:
+      - InteractionBehaviour_0.OnObjectTouched
+      - InteractionBehaviour_0.OnObjectNotTouched
+    UseValueListSignatures: []
+--- !u!54 &4981877991532340252
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 56
+  m_CollisionDetection: 0
+--- !u!114 &7938432279729558595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4353ca8f1cff214abf1b77f37f6c2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _index: 0
+--- !u!64 &1146466783
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3329902420748629119, guid: 26b19fff9b356144497039b854a6a89b, type: 3}
+--- !u!114 &8021643149930360965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0fef5926f5abc4abda01eb169b6e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 39696
+--- !u!114 &1706778540680946425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7338d1ff64bbc44bfbd17b39fb65da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isGrabbable: 0
+  _isUsable: 1
+  _isTouchable: 0
+  OnGrabStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGrabEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUseStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4981877991532340252}
+        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+        m_MethodName: set_isKinematic
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4981877991532340252}
+        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+        m_MethodName: set_useGravity
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7938432279729558595}
+        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+        m_MethodName: Drop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnUseEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTouchStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTouchEnded:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6400344657383168963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0161dd7b858713441a706f608c8e63cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1607913106072188558
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715232893443422299}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 99ca1f8b08d5cbf4c915b22596858b51, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
