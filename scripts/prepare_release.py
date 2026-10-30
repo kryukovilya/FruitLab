@@ -28,6 +28,13 @@ def digest(path: Path) -> str:
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
+def normalize_archive_paths(archive: zipfile.ZipFile) -> None:
+    """Varwin exports Windows separators, which zipfile preserves on Linux."""
+    for info in archive.infolist():
+        info.filename = info.filename.replace("\\", "/")
+    archive.NameToInfo = {info.filename: info for info in archive.infolist()}
+
+
 def runtime_codec(archive: zipfile.ZipFile) -> AESGCM:
     """Read the format from the shipped runtime; no account credentials are used."""
     pe = dnfile.dnPE(data=archive.read("VarwinClient_Data/Managed/ADec.dll"))
@@ -65,6 +72,7 @@ def prepare(source: Path, output: Path, recipe: dict) -> dict:
     exe = output / "FruitLab.exe"
     export = output / "FruitLab.vwp"
     with zipfile.ZipFile(source) as old:
+        normalize_archive_paths(old)
         codec = runtime_codec(old)
         metadata = clean_metadata(json.loads(old.read("project/index.json")), codec)
         payload = json.dumps(metadata, ensure_ascii=False, separators=(",", ":")).encode()
