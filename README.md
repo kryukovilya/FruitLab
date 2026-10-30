@@ -4,9 +4,7 @@ FruitLab — VR-головоломка, созданная в рамках Вс�
 
 [Страница проекта на Varwin Education](https://varwin.com/ru/education/project/fruitlab) · [Видео геймплея](media/gameplay-silent.mp4)
 
-**[Скачать игру и проект Varwin](https://github.com/kryukovilya/FruitLab/releases/latest)**
-
-В релизе находятся `FruitLab.exe` для Windows x64 и `FruitLab.vwp` для редактирования в Varwin XRMS. Исходная версия проекта — **18.2.170**. [Инструкция запуска и импорта](docs/RUNNING.md).
+**[Скачать игру](https://github.com/kryukovilya/FruitLab/releases/download/v1.0.0/FruitLab.exe)** · [Проект Varwin](https://github.com/kryukovilya/FruitLab/releases/download/v1.0.0/FruitLab.vwp) · [Инструкция](docs/RUNNING.md)
 
 Проект команды **«Гномы»**. **Илья Крюков — тимлид**. Состав команды и наставник указаны на [официальной странице проекта](https://varwin.com/ru/education/project/fruitlab).
 
@@ -41,8 +39,6 @@ src/Objects/       C#-компоненты, prefab и настройки объ�
 src/scene-logic/   логика сцен и привязки объектов Varwin
 media/            скриншоты и видео геймплея
 docs/             описание устройства игры
-distribution/     описание экспорта и дополнительные ресурсы проекта
-scripts/          подготовка проверенного дистрибутива
 ```
 
 [Подробнее об устройстве игры](docs/ARCHITECTURE.md)
